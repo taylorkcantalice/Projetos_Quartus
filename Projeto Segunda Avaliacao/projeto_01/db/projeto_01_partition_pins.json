@@ -1,0 +1,45 @@
+{
+	"partitions" : [
+		{
+			"name" : "Top",
+			"pins" : [
+				{
+					"name" : "VmA",
+					"strict" : false
+				},
+				{
+					"name" : "AmA",
+					"strict" : false
+				},
+				{
+					"name" : "VdA",
+					"strict" : false
+				},
+				{
+					"name" : "VmB",
+					"strict" : false
+				},
+				{
+					"name" : "AmB",
+					"strict" : false
+				},
+				{
+					"name" : "VdB",
+					"strict" : false
+				},
+				{
+					"name" : "modo",
+					"strict" : false
+				},
+				{
+					"name" : "clk",
+					"strict" : false
+				},
+				{
+					"name" : "rst",
+					"strict" : false
+				}
+			]
+		}
+	]
+}

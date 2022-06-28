@@ -1,0 +1,8 @@
+|somador_completo_02
+A => Decoder0.IN0
+B => Decoder0.IN1
+Cin => Decoder0.IN2
+S <= WideOr0.DB_MAX_OUTPUT_PORT_TYPE
+Cout <= WideOr1.DB_MAX_OUTPUT_PORT_TYPE
+
+

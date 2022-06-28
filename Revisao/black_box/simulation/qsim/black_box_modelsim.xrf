@@ -1,0 +1,10 @@
+vendor_name = ModelSim
+source_file = 1, C:/Quartus/Projetos Quartus/Revisao/black_box/black_box.sv
+source_file = 1, C:/Quartus/Projetos Quartus/Revisao/black_box/db/black_box.cbx.xml
+design_name = black_box
+instance = comp, \Out~output , Out~output, black_box, 1
+instance = comp, \Select~input , Select~input, black_box, 1
+instance = comp, \A~input , A~input, black_box, 1
+instance = comp, \B~input , B~input, black_box, 1
+instance = comp, \Out~0 , Out~0, black_box, 1
+instance = comp, \~QUARTUS_CREATED_GND~I , ~QUARTUS_CREATED_GND~I, black_box, 1

@@ -1,0 +1,28 @@
+|projeto_02
+modo => estado_atual.OUTPUTSELECT
+modo => estado_atual.OUTPUTSELECT
+modo => estado_atual.OUTPUTSELECT
+modo => estado_atual.OUTPUTSELECT
+modo => estado_atual.OUTPUTSELECT
+modo => estado_atual.OUTPUTSELECT
+modo => estado_atual.OUTPUTSELECT
+modo => estado_atual.OUTPUTSELECT
+modo => estado_atual.OUTPUTSELECT
+modo => estado_atual.OUTPUTSELECT
+modo => estado_atual.OUTPUTSELECT
+modo => estado_atual.OUTPUTSELECT
+modo => estado_atual.OUTPUTSELECT
+modo => estado_atual.OUTPUTSELECT
+modo => estado_atual.OUTPUTSELECT
+modo => estado_atual.OUTPUTSELECT
+clock => estado_atual~2.DATAIN
+reset => estado_atual~4.DATAIN
+A <= WideOr0.DB_MAX_OUTPUT_PORT_TYPE
+B <= WideOr1.DB_MAX_OUTPUT_PORT_TYPE
+C <= WideOr2.DB_MAX_OUTPUT_PORT_TYPE
+D <= WideOr3.DB_MAX_OUTPUT_PORT_TYPE
+E <= WideOr4.DB_MAX_OUTPUT_PORT_TYPE
+F <= WideOr5.DB_MAX_OUTPUT_PORT_TYPE
+G <= WideOr6.DB_MAX_OUTPUT_PORT_TYPE
+
+

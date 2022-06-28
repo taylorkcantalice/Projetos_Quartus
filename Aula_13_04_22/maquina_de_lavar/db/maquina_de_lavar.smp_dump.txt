@@ -1,0 +1,7 @@
+
+State Machine - |maquina_de_lavar|estado_atual
+Name estado_atual.girar estado_atual.agitar estado_atual.encher estado_atual.esperar 
+estado_atual.esperar 0 0 0 0 
+estado_atual.encher 0 0 1 1 
+estado_atual.agitar 0 1 0 1 
+estado_atual.girar 1 0 0 1 

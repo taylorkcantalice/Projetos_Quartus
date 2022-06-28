@@ -1,0 +1,27 @@
+|contador_120
+clock => s[0]~reg0.CLK
+clock => s[1]~reg0.CLK
+clock => s[2]~reg0.CLK
+clock => s[3]~reg0.CLK
+clock => s[4]~reg0.CLK
+clock => s[5]~reg0.CLK
+clock => s[6]~reg0.CLK
+clock => s[7]~reg0.CLK
+reset => s[0]~reg0.ACLR
+reset => s[1]~reg0.ACLR
+reset => s[2]~reg0.ACLR
+reset => s[3]~reg0.ACLR
+reset => s[4]~reg0.ACLR
+reset => s[5]~reg0.ACLR
+reset => s[6]~reg0.ACLR
+reset => s[7]~reg0.ACLR
+s[0] <= s[0]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+s[1] <= s[1]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+s[2] <= s[2]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+s[3] <= s[3]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+s[4] <= s[4]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+s[5] <= s[5]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+s[6] <= s[6]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+s[7] <= s[7]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+
+

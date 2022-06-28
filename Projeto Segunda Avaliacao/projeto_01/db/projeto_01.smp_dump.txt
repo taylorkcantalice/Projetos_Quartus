@@ -1,0 +1,14 @@
+
+State Machine - |projeto_01|estado
+Name estado.N2 estado.N1 estado.D estado.C3 estado.C2 estado.C1 estado.B estado.A4 estado.A3 estado.A2 estado.A1 
+estado.A1 0 0 0 0 0 0 0 0 0 0 0 
+estado.A2 0 0 0 0 0 0 0 0 0 1 1 
+estado.A3 0 0 0 0 0 0 0 0 1 0 1 
+estado.A4 0 0 0 0 0 0 0 1 0 0 1 
+estado.B 0 0 0 0 0 0 1 0 0 0 1 
+estado.C1 0 0 0 0 0 1 0 0 0 0 1 
+estado.C2 0 0 0 0 1 0 0 0 0 0 1 
+estado.C3 0 0 0 1 0 0 0 0 0 0 1 
+estado.D 0 0 1 0 0 0 0 0 0 0 1 
+estado.N1 0 1 0 0 0 0 0 0 0 0 1 
+estado.N2 1 0 0 0 0 0 0 0 0 0 1 

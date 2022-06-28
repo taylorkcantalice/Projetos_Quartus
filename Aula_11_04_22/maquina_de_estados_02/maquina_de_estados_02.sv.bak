@@ -1,0 +1,7 @@
+module maquina_de_estados_02 (input Clock, GCNT, output logic X, Y, Z);
+
+always_ff @(posedge Clock) begin
+
+end
+
+endmodule 

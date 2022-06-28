@@ -1,0 +1,53 @@
+{
+	"partitions" : [
+		{
+			"name" : "Top",
+			"pins" : [
+				{
+					"name" : "valvula_agua",
+					"strict" : false
+				},
+				{
+					"name" : "modo_agitar",
+					"strict" : false
+				},
+				{
+					"name" : "modo_girar",
+					"strict" : false
+				},
+				{
+					"name" : "estado_atual[0]",
+					"strict" : false
+				},
+				{
+					"name" : "estado_atual[1]",
+					"strict" : false
+				},
+				{
+					"name" : "inicio",
+					"strict" : false
+				},
+				{
+					"name" : "cheio",
+					"strict" : false
+				},
+				{
+					"name" : "tempo",
+					"strict" : false
+				},
+				{
+					"name" : "secar",
+					"strict" : false
+				},
+				{
+					"name" : "clock",
+					"strict" : false
+				},
+				{
+					"name" : "reset_n",
+					"strict" : false
+				}
+			]
+		}
+	]
+}

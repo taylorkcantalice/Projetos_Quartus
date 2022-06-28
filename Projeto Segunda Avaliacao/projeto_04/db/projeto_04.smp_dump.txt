@@ -1,0 +1,20 @@
+
+State Machine - |projeto_04|estado_anterior
+Name estado_anterior.S110 estado_anterior.S101 estado_anterior.S100 estado_anterior.S011 estado_anterior.S010 estado_anterior.S001 estado_anterior.S000 
+estado_anterior.S000 0 0 0 0 0 0 0 
+estado_anterior.S001 0 0 0 0 0 1 1 
+estado_anterior.S010 0 0 0 0 1 0 1 
+estado_anterior.S011 0 0 0 1 0 0 1 
+estado_anterior.S100 0 0 1 0 0 0 1 
+estado_anterior.S101 0 1 0 0 0 0 1 
+estado_anterior.S110 1 0 0 0 0 0 1 
+
+State Machine - |projeto_04|estado_atual
+Name estado_atual.S110 estado_atual.S101 estado_atual.S100 estado_atual.S011 estado_atual.S010 estado_atual.S001 estado_atual.S000 
+estado_atual.S000 0 0 0 0 0 0 0 
+estado_atual.S001 0 0 0 0 0 1 1 
+estado_atual.S010 0 0 0 0 1 0 1 
+estado_atual.S011 0 0 0 1 0 0 1 
+estado_atual.S100 0 0 1 0 0 0 1 
+estado_atual.S101 0 1 0 0 0 0 1 
+estado_atual.S110 1 0 0 0 0 0 1 

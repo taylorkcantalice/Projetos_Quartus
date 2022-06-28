@@ -1,0 +1,12 @@
+|questao_03
+X[0] => WideXnor0.IN0
+X[1] => WideXnor0.IN1
+X[2] => WideXnor0.IN2
+X[3] => WideXnor0.IN3
+X[4] => WideXnor0.IN4
+X[5] => WideXnor0.IN5
+X[6] => WideXnor0.IN6
+X[7] => WideXnor0.IN7
+P <= WideXnor0.DB_MAX_OUTPUT_PORT_TYPE
+
+

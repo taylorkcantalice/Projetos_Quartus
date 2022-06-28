@@ -1,0 +1,1 @@
+Warning (10268): Verilog HDL information at maquina_de_estados_01.sv(3): always construct contains both blocking and non-blocking assignments File: C:/Quartus/Projetos Quartus/Aula_11_04_22/maquina_de_estados_01/maquina_de_estados_01.sv Line: 3

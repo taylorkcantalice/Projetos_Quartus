@@ -1,0 +1,63 @@
+module maquina_de_estado_02 (input X, Clock, Reset, output logic Y/*, output logic [1:0] estado_atual*/);
+
+logic [1:0] estado_atual;
+logic [1:0] estado_anterior;
+parameter A = 0, B = 1, C = 2, D = 3;
+
+always_comb 
+  begin
+    case (estado_atual)
+	   A: begin
+		    if (estado_anterior == B or estado_anterior == C or estado_anterior == D) 
+			   Y = 1;
+			 else
+			   Y = 0;
+		  end
+		  
+		B: Y = 0;
+		  
+		C: Y = 0;
+		  
+		D: Y = 0;
+		  
+    endcase
+  end
+
+always_ff @(posedge Clock, negedge Reset)
+  begin
+    if (~Reset)
+      estado_atual <= A;
+    else
+	   case (estado_atual)
+		  A: 
+		    begin 
+			   if (X == 0) begin
+				  estado_atual <= A; end
+				else begin
+				  estado_atual <= B; estado_anterios <= A; end
+          end				
+		  B: 
+		    begin 
+			   if (X == 0) begin
+				  estado_atual <= A; estado_anterios <= B; end
+				else begin
+				  estado_atual <= D; estado_anterios <= B; end
+          end			 
+		  C: 
+		    begin 
+			   if (X == 0) begin
+				  estado_atual <= A; estado_anterios <= C; end
+				else begin
+				  estado_atual <= C; estado_anterios <= C; end
+          end	 
+		  D: 
+		    begin 
+			   if (X == 0) begin
+				  estado_atual <= A; estado_anterios <= D; end
+				else begin
+				  estado_atual <= C; estado_anterios <= D; end
+          end
+		endcase  
+  end
+
+endmodule 

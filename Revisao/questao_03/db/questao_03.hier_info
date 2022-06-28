@@ -1,0 +1,42 @@
+|questao_03
+u[0] => a.IN0
+u[0] => b.IN0
+u[0] => c.IN0
+u[0] => WideAnd0.IN0
+u[0] => WideOr1.IN0
+u[1] => a.IN0
+u[1] => b.IN0
+u[1] => c.IN0
+u[1] => WideAnd0.IN1
+u[1] => WideOr1.IN1
+u[2] => a.IN0
+u[2] => b.IN0
+u[2] => c.IN0
+u[2] => WideAnd0.IN2
+u[2] => WideOr1.IN2
+v[0] => a.IN1
+v[0] => b.IN1
+v[0] => c.IN1
+v[0] => WideOr0.IN0
+v[1] => a.IN1
+v[1] => b.IN1
+v[1] => c.IN1
+v[1] => WideOr0.IN1
+v[2] => a.IN1
+v[2] => b.IN1
+v[2] => c.IN1
+v[2] => WideOr0.IN2
+a[0] <= a.DB_MAX_OUTPUT_PORT_TYPE
+a[1] <= a.DB_MAX_OUTPUT_PORT_TYPE
+a[2] <= a.DB_MAX_OUTPUT_PORT_TYPE
+b[0] <= b.DB_MAX_OUTPUT_PORT_TYPE
+b[1] <= b.DB_MAX_OUTPUT_PORT_TYPE
+b[2] <= b.DB_MAX_OUTPUT_PORT_TYPE
+c[0] <= c.DB_MAX_OUTPUT_PORT_TYPE
+c[1] <= c.DB_MAX_OUTPUT_PORT_TYPE
+c[2] <= c.DB_MAX_OUTPUT_PORT_TYPE
+d <= WideAnd0.DB_MAX_OUTPUT_PORT_TYPE
+e <= WideOr0.DB_MAX_OUTPUT_PORT_TYPE
+f <= WideOr1.DB_MAX_OUTPUT_PORT_TYPE
+
+

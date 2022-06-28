@@ -1,0 +1,13 @@
+module non_blocking (input clk, a, output logic c);
+
+logic b, d, e, f;
+
+always_ff begin
+	b <= a;
+	d <= b;
+	e <= d;
+	f <= e;
+	c <= f;
+end
+
+endmodule 

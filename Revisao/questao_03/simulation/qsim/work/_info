@@ -1,0 +1,57 @@
+m255
+K4
+z2
+!s11f vlog 2020.1 2020.02, Feb 28 2020
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dC:/Quartus/Projetos Quartus/Revisao/questao_03/simulation/qsim
+vquestao_03
+!s110 1648497667
+!i10b 1
+!s100 FPd;Dz78C@hUP^MG0OkJo0
+Z1 !s11b Dg1SIo80bB@j0V0VzS_@n1
+IF_CTi8_J>GM@GmAS67i[b2
+Z2 VDg1SIo80bB@j0V0VzS_@n1
+R0
+w1648497666
+8questao_03.vo
+Fquestao_03.vo
+!i122 8
+L0 32 641
+Z3 OV;L;2020.1;71
+r1
+!s85 0
+31
+!s108 1648497667.000000
+!s107 questao_03.vo|
+!s90 -work|work|questao_03.vo|
+!i113 1
+Z4 o-work work
+Z5 tCvgOpt 0
+vquestao_03_vlg_vec_tst
+!s110 1648497668
+!i10b 1
+!s100 GEn<n^AAJWzM9Dk?61PA_1
+R1
+I6dRSfAaVfQURb_;NHgK4`0
+R2
+R0
+w1648497664
+8Waveform.vwf.vt
+FWaveform.vwf.vt
+!i122 9
+L0 30 349
+R3
+r1
+!s85 0
+31
+!s108 1648497668.000000
+!s107 Waveform.vwf.vt|
+!s90 -work|work|Waveform.vwf.vt|
+!i113 1
+R4
+R5

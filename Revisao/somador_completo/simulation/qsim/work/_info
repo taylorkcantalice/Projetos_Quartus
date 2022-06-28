@@ -1,0 +1,57 @@
+m255
+K4
+z2
+!s11f vlog 2020.1 2020.02, Feb 28 2020
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dC:/Quartus/Projetos Quartus/Revisao/somador_completo/simulation/qsim
+vsomador_completo
+Z1 !s110 1648218644
+!i10b 1
+!s100 19GcRk]56Bzg=R[4cC7aZ3
+Z2 !s11b Dg1SIo80bB@j0V0VzS_@n1
+IR?KGCKi[E9ze;o1e3HkVc2
+Z3 VDg1SIo80bB@j0V0VzS_@n1
+R0
+w1648218643
+8somador_completo.vo
+Fsomador_completo.vo
+!i122 0
+L0 32 176
+Z4 OV;L;2020.1;71
+r1
+!s85 0
+31
+Z5 !s108 1648218644.000000
+!s107 somador_completo.vo|
+!s90 -work|work|somador_completo.vo|
+!i113 1
+Z6 o-work work
+Z7 tCvgOpt 0
+vsomador_completo_vlg_vec_tst
+R1
+!i10b 1
+!s100 8gJ;;Yzk[lBCf=RSDgj4R0
+R2
+I4ln]aU5WR@HAX>=]P6;lP2
+R3
+R0
+w1648218642
+8Waveform.vwf.vt
+FWaveform.vwf.vt
+!i122 1
+L0 30 56
+R4
+r1
+!s85 0
+31
+R5
+!s107 Waveform.vwf.vt|
+!s90 -work|work|Waveform.vwf.vt|
+!i113 1
+R6
+R7

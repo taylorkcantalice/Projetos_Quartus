@@ -1,0 +1,10 @@
+vendor_name = ModelSim
+source_file = 1, C:/Quartus/Projetos Quartus/Revisao/and_or/and_or.sv
+source_file = 1, C:/Quartus/Projetos Quartus/Revisao/and_or/db/and_or.cbx.xml
+design_name = and_or
+instance = comp, \Out~output , Out~output, and_or, 1
+instance = comp, \B~input , B~input, and_or, 1
+instance = comp, \X~input , X~input, and_or, 1
+instance = comp, \A~input , A~input, and_or, 1
+instance = comp, \Out~0 , Out~0, and_or, 1
+instance = comp, \~QUARTUS_CREATED_GND~I , ~QUARTUS_CREATED_GND~I, and_or, 1

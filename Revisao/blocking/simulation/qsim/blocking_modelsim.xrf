@@ -1,0 +1,11 @@
+vendor_name = ModelSim
+source_file = 1, C:/Quartus/Projetos Quartus/Revisao/blocking/blocking.sv
+source_file = 1, C:/Quartus/Projetos Quartus/Revisao/blocking/Waveform.vwf
+source_file = 1, C:/Quartus/Projetos Quartus/Revisao/blocking/db/blocking.cbx.xml
+design_name = blocking
+instance = comp, \C~output , C~output, blocking, 1
+instance = comp, \CLK~input , CLK~input, blocking, 1
+instance = comp, \A~input , A~input, blocking, 1
+instance = comp, \C~reg0feeder , C~reg0feeder, blocking, 1
+instance = comp, \C~reg0 , C~reg0, blocking, 1
+instance = comp, \~QUARTUS_CREATED_GND~I , ~QUARTUS_CREATED_GND~I, blocking, 1

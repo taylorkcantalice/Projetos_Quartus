@@ -1,0 +1,11 @@
+module blocking (input A, CLK, output C);
+
+wire A, CLK;
+reg C, B;
+
+always @(posedge CLK) begin
+	B = A;
+	C = B;
+end
+
+endmodule 

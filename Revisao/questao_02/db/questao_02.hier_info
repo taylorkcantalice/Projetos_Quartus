@@ -1,0 +1,14 @@
+|questao_02
+a => Equal0.IN0
+a => Equal1.IN0
+a => Equal2.IN0
+b => Equal0.IN1
+b => Equal1.IN1
+b => Equal2.IN1
+c => Equal0.IN2
+c => Equal1.IN2
+c => Equal2.IN2
+y <= y.DB_MAX_OUTPUT_PORT_TYPE
+z <= z.DB_MAX_OUTPUT_PORT_TYPE
+
+

@@ -1,0 +1,15 @@
+|questao_03_02
+a[0] << <GND>
+a[1] << <GND>
+a[2] << <GND>
+b[0] << <VCC>
+b[1] << <VCC>
+b[2] << <VCC>
+c[0] << <VCC>
+c[1] << <VCC>
+c[2] << <VCC>
+d << <GND>
+e << <VCC>
+f << <VCC>
+
+

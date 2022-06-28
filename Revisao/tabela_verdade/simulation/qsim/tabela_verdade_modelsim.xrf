@@ -1,0 +1,13 @@
+vendor_name = ModelSim
+source_file = 1, C:/Quartus/Projetos Quartus/Revisao/tabela_verdade/tabela_verdade.sv
+source_file = 1, C:/Quartus/Projetos Quartus/Revisao/tabela_verdade/Waveform.vwf
+source_file = 1, C:/Quartus/Projetos Quartus/Revisao/tabela_verdade/db/tabela_verdade.cbx.xml
+design_name = tabela_verdade
+instance = comp, \y~output , y~output, tabela_verdade, 1
+instance = comp, \z~output , z~output, tabela_verdade, 1
+instance = comp, \c~input , c~input, tabela_verdade, 1
+instance = comp, \b~input , b~input, tabela_verdade, 1
+instance = comp, \a~input , a~input, tabela_verdade, 1
+instance = comp, \Decoder0~0 , Decoder0~0, tabela_verdade, 1
+instance = comp, \Decoder0~1 , Decoder0~1, tabela_verdade, 1
+instance = comp, \~QUARTUS_CREATED_GND~I , ~QUARTUS_CREATED_GND~I, tabela_verdade, 1

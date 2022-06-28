@@ -1,0 +1,12 @@
+vendor_name = ModelSim
+source_file = 1, C:/Quartus/Projetos Quartus/Revisao/non_blocking/non_blocking.sv
+source_file = 1, C:/Quartus/Projetos Quartus/Revisao/non_blocking/db/non_blocking.cbx.xml
+design_name = non_blocking
+instance = comp, \C~output , C~output, non_blocking, 1
+instance = comp, \CLK~input , CLK~input, non_blocking, 1
+instance = comp, \CLK~inputCLKENA0 , CLK~inputCLKENA0, non_blocking, 1
+instance = comp, \A~input , A~input, non_blocking, 1
+instance = comp, \B~feeder , B~feeder, non_blocking, 1
+instance = comp, \C~reg0feeder , C~reg0feeder, non_blocking, 1
+instance = comp, \C~reg0 , C~reg0, non_blocking, 1
+instance = comp, \~QUARTUS_CREATED_GND~I , ~QUARTUS_CREATED_GND~I, non_blocking, 1

@@ -1,0 +1,23 @@
+|maquina_de_estado_03
+y => estado_anterior.OUTPUTSELECT
+y => estado_anterior.OUTPUTSELECT
+y => estado_anterior.OUTPUTSELECT
+y => estado_anterior.OUTPUTSELECT
+y => Selector3.IN1
+y => Selector1.IN2
+y => estado_anterior.OUTPUTSELECT
+y => estado_anterior.OUTPUTSELECT
+y => estado_anterior.OUTPUTSELECT
+y => estado_anterior.OUTPUTSELECT
+y => Selector2.IN0
+y => Selector0.IN1
+clock => estado_anterior~5.DATAIN
+clock => estado_atual~4.DATAIN
+reset => estado_anterior.S11.OUTPUTSELECT
+reset => estado_anterior.S10.OUTPUTSELECT
+reset => estado_anterior.S01.OUTPUTSELECT
+reset => estado_anterior.Sinic.OUTPUTSELECT
+reset => estado_atual~6.DATAIN
+z <= z.DB_MAX_OUTPUT_PORT_TYPE
+
+

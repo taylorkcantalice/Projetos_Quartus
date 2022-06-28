@@ -1,0 +1,57 @@
+m255
+K4
+z2
+!s11f vlog 2020.1 2020.02, Feb 28 2020
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dC:/Quartus/Projetos Quartus/Aula_13_04_22/maquina_de_lavar/simulation/qsim
+vmaquina_de_lavar
+Z1 !s110 1649874724
+!i10b 1
+!s100 a9XMe>[Ad=c_EcK693U0c2
+Z2 !s11b Dg1SIo80bB@j0V0VzS_@n1
+IPNY?LMmEPm<lje>QjHgb@1
+Z3 VDg1SIo80bB@j0V0VzS_@n1
+R0
+w1649874723
+8maquina_de_lavar.vo
+Fmaquina_de_lavar.vo
+!i122 6
+L0 32 408
+Z4 OV;L;2020.1;71
+r1
+!s85 0
+31
+Z5 !s108 1649874724.000000
+!s107 maquina_de_lavar.vo|
+!s90 -work|work|maquina_de_lavar.vo|
+!i113 1
+Z6 o-work work
+Z7 tCvgOpt 0
+vmaquina_de_lavar_vlg_vec_tst
+R1
+!i10b 1
+!s100 jcFP2G[cHaKHBdDgVa5TM0
+R2
+In=>9hgUm[`ERhXg2m;gf52
+R3
+R0
+w1649874722
+8Waveform.vwf.vt
+FWaveform.vwf.vt
+!i122 7
+L0 30 80
+R4
+r1
+!s85 0
+31
+R5
+!s107 Waveform.vwf.vt|
+!s90 -work|work|Waveform.vwf.vt|
+!i113 1
+R6
+R7

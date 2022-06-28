@@ -1,0 +1,12 @@
+module contador_120 (input clock, reset, output logic [6:0] s);
+
+always_ff @(posedge clock or negedge reset) begin
+  if(s <= 7'd120) begin
+    if(~reset)
+	   s <= 7'd0;
+	 else
+	   s <= s + 7'd1;
+  end
+end
+
+endmodule 

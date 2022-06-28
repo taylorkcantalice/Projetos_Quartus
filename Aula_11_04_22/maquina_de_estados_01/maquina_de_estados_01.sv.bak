@@ -1,0 +1,1 @@
+module maquina_de_estados_01 (input In, output Q1, Q2, X);

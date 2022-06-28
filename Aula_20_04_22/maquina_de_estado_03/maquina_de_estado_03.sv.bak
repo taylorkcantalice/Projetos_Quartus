@@ -1,0 +1,21 @@
+module maquina_de_estado_03 (input Y, Clock, Reset, output logic Z);
+
+logic estado_atual, estado_01, estado_02, estado_03;
+
+always_comb 
+  begin
+    if ({estado_atual, estado_01, estado_02} == 3'b101)
+	   Z <= 1;
+	 else
+	   Z <= 0;
+  end 
+
+always_ff @(posedge Clock, negedge Reset)
+  begin
+    if (~Reset)
+	   begin estado_atual <= 0; estado_01 <= 0; estado_02 <= 0; end
+	 else
+	   begin estado_02 <= estado_01 ; estado_01 <= estado_atual; estado_atual <= Y; end
+  end
+
+endmodule  

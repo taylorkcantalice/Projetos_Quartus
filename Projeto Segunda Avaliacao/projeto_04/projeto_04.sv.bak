@@ -1,0 +1,2 @@
+module projeto_04 (input INPUT, Clock, output logic ABERTA, ERRO);
+

@@ -1,0 +1,15 @@
+|questao_02
+S1 => Mux0.IN0
+S2 => Mux0.IN1
+S3 => Mux0.IN2
+A1 => Mux0.IN3
+A2 => Mux0.IN4
+A3 => Mux0.IN5
+A4 => Mux0.IN6
+A5 => Mux0.IN7
+A6 => Mux0.IN8
+A7 => Mux0.IN9
+A8 => Mux0.IN10
+OUT <= Mux0.DB_MAX_OUTPUT_PORT_TYPE
+
+

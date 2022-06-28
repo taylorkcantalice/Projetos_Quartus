@@ -1,0 +1,7 @@
+
+State Machine - |maquina_de_estado_01|estado_atual
+Name estado_atual.D estado_atual.C estado_atual.B estado_atual.A 
+estado_atual.A 0 0 0 0 
+estado_atual.B 0 0 1 1 
+estado_atual.C 0 1 0 1 
+estado_atual.D 1 0 0 1 

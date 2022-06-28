@@ -1,0 +1,14 @@
+|maquina_de_estado_01
+X => estado_atual.OUTPUTSELECT
+X => estado_atual.OUTPUTSELECT
+X => estado_atual.OUTPUTSELECT
+X => estado_atual.OUTPUTSELECT
+X => estado_atual.OUTPUTSELECT
+X => estado_atual.OUTPUTSELECT
+X => estado_atual.OUTPUTSELECT
+X => estado_atual.OUTPUTSELECT
+Clock => estado_atual~3.DATAIN
+Reset => estado_atual~5.DATAIN
+Y <= Y.DB_MAX_OUTPUT_PORT_TYPE
+
+

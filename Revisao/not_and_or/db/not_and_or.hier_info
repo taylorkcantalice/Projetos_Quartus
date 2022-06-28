@@ -1,0 +1,10 @@
+|not_and_or
+A => Out.IN0
+B => Out.IN0
+Sel => Out.IN1
+Sel => Out.IN1
+Sel_A <= <GND>
+Sel_B <= <GND>
+Out <= Out.DB_MAX_OUTPUT_PORT_TYPE
+
+

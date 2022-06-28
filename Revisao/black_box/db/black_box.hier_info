@@ -1,0 +1,7 @@
+|black_box
+A => Out.DATAB
+B => Out.DATAA
+Select => Out.OUTPUTSELECT
+Out <= Out.DB_MAX_OUTPUT_PORT_TYPE
+
+

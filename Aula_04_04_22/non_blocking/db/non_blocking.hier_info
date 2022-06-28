@@ -1,0 +1,16 @@
+|non_blocking
+clock => d3~reg0.CLK
+clock => d2~reg0.CLK
+clock => d1~reg0.CLK
+clock => d0~reg0.CLK
+reset => d3~reg0.ACLR
+reset => d2~reg0.ACLR
+reset => d1~reg0.ACLR
+reset => d0~reg0.ACLR
+in => d0~reg0.DATAIN
+d0 << d0~reg0.DB_MAX_OUTPUT_PORT_TYPE
+d1 << d1~reg0.DB_MAX_OUTPUT_PORT_TYPE
+d2 << d2~reg0.DB_MAX_OUTPUT_PORT_TYPE
+d3 << d3~reg0.DB_MAX_OUTPUT_PORT_TYPE
+
+

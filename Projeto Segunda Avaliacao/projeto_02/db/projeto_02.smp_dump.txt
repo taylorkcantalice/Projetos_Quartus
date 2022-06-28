@@ -1,0 +1,19 @@
+
+State Machine - |projeto_02|estado_atual
+Name estado_atual.estado9 estado_atual.estadoC estado_atual.estado1 estado_atual.estadoF estado_atual.estadoD estado_atual.estado6 estado_atual.estado4 estado_atual.estadoB estado_atual.estado0 estado_atual.estado8 estado_atual.estadoE estado_atual.estadoA estado_atual.estado3 estado_atual.estado7 estado_atual.estado5 estado_atual.estado2 
+estado_atual.estado2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+estado_atual.estado5 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 1 
+estado_atual.estado7 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 1 
+estado_atual.estado3 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 1 
+estado_atual.estadoA 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 1 
+estado_atual.estadoE 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 1 
+estado_atual.estado8 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 1 
+estado_atual.estado0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 1 
+estado_atual.estadoB 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 1 
+estado_atual.estado4 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 1 
+estado_atual.estado6 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 1 
+estado_atual.estadoD 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 1 
+estado_atual.estadoF 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 1 
+estado_atual.estado1 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 1 
+estado_atual.estadoC 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 1 
+estado_atual.estado9 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 

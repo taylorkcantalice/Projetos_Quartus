@@ -1,0 +1,30 @@
+module questao_04 (input Op, S1, S2, input [7:0] A, B, output logic [8:0] OUT);
+
+always_comb begin
+ if({Op, S1, S2} == {3'b000}) begin
+  OUT = A + B;
+ end
+ else if({Op, S1, S2} == {3'b001} begin
+  OUT = A - B;
+ end
+ else if({Op, S1, S2} == {3'b010} begin
+  OUT = A + 1;
+ end
+ else if({Op, S1, S2} == {3'b011} begin
+  OUT = B + 1;
+ end
+ else if({Op, S1, S2} == {3'b100} begin
+  OUT = ~A;
+ end
+ else if({Op, S1, S2} == {3'b101} begin
+  OUT = ~B;
+ end
+ else if({Op, S1, S2} == {3'b110} begin
+  OUT = A & B;
+ end
+ else begin
+  OUT = A | B;
+ end
+end
+
+endmodule 

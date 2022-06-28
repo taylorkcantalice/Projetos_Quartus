@@ -1,0 +1,13 @@
+module questao_03 (input u, v, output logic [2:0] a, b, c, f, output d, e);
+
+logic [2:0] u = 4'b001;
+logic [2:0] v = 4'b110;
+
+assign a = u & v;
+assign b = u | v;
+assign c = u ^ v;
+assign d = &u;
+assign e = |v;
+assign f = |u;
+
+endmodule 

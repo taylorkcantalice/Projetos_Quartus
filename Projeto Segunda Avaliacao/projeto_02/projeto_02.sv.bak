@@ -1,0 +1,198 @@
+module projeto_02 (input logic modo, clock, reset, output logic A, B, C, D, E, F, G);
+								
+	logic [3:0] estado_atual;
+	parameter estado2 = 0, estado5 = 1, estado7 = 2, estado3 = 3, estadoA = 4,
+				estadoE = 5, estado8 = 6, estado0 = 7, estadoB = 8, estado4 = 9,
+				estado6 = 10, estadoD = 11, estadoF = 12, estado1 = 13, estadoC = 14,
+				estado9 = 15;
+	
+	
+	always_comb begin
+			
+		case(estado_atual)		//parte combinacional
+			estado2: 
+			begin
+				A = 1; B = 1; C = 0; D = 1; E = 1; F = 0; G = 1;
+				end
+			estado5: 
+			begin
+				A = 1; B = 0; C = 1; D = 1; E = 0; F = 1; G = 1;
+				end
+			estado7: 
+			begin
+				A = 1; B = 1; C = 1; D = 0; E = 0; F = 0; G = 0;
+				end
+			estado3: 
+			begin
+				A = 1; B = 1; C = 1; D = 1; E = 0; F = 0; G = 1;
+				end
+			estadoA: 
+			begin
+				A = 1; B = 1; C = 1; D = 0; E = 1; F = 1; G = 1;
+				end
+			estadoE: 
+			begin
+				A = 1; B = 0; C = 0; D = 1; E = 1; F = 1; G = 1;
+				end
+			estado8: 
+			begin
+				A = 1; B = 1; C = 1; D = 1; E = 1; F = 1; G = 1;
+				end
+			estado0: 
+			begin
+				A = 1; B = 1; C = 1; D = 1; E = 1; F = 1; G = 0;
+				end
+			estadoB: 
+			begin
+				A = 0; B = 0; C = 1; D = 1; E = 1; F = 1; G = 1;
+				end
+			estado4: 
+			begin
+				A = 0; B = 1; C = 1; D = 0; E = 0; F = 1; G = 1;
+				end
+			estado6: 
+			begin
+				A = 1; B = 0; C = 1; D = 1; E = 1; F = 1; G = 1;
+				end
+			estadoD: 
+			begin
+				A = 0; B = 1; C = 1; D = 1; E = 1; F = 0; G = 1;
+				end
+			estadoF: 
+			begin
+				A = 1; B = 0; C = 0; D = 0; E = 1; F = 1; G = 1;
+				end
+			estado1: 
+			begin
+				A = 0; B = 1; C = 1; D = 0; E = 0; F = 0; G = 0;
+				end
+			estadoC: 
+			begin
+				A = 1; B = 0; C = 0; D = 1; E = 1; F = 1; G = 0;
+				end
+			estado9: 
+			begin
+				A = 1; B = 1; C = 1; D = 1; E = 0; F = 1; G = 1;
+			end
+		endcase
+	end
+	
+	always_ff @(posedge clock, posedge reset) begin
+
+	
+	if(reset) begin
+	estado_atual<= estado2;
+	end else begin
+
+	
+	if(!modo) begin
+		case(estado_atual)
+	
+		estado2: 
+			estado_atual <= estado5;
+			
+		estado5: 
+			estado_atual <= estado7;
+			
+		estado7: 
+			estado_atual <= estado3;
+			
+		estado3: 
+			estado_atual <= estadoA;
+			
+		estadoA: 
+			estado_atual <= estadoE;
+			
+		estadoE: 
+			estado_atual <= estado8;
+			
+		estado8: 
+			estado_atual <= estado0;
+			
+		estado0: 
+			estado_atual <= estadoB;
+			
+		estadoB: 
+			estado_atual <= estado4;
+			
+		estado4: 
+			estado_atual <= estado6;
+			
+		estado6: 
+			estado_atual <= estadoD;
+			
+		estadoD: 
+			estado_atual <= estadoF;
+
+		estadoF: 
+			estado_atual <= estado1;
+			
+		estado1: 
+			estado_atual <= estadoC;
+			
+		estadoC: 
+			estado_atual <= estado9;
+
+		estado9: 
+			estado_atual <= estado2;
+		
+		endcase
+		end
+	else begin
+		case(modo)
+	
+		estado2: 
+			estado_atual <= estado9;
+			
+		estado5: 
+			estado_atual <= estado2;
+			
+		estado7: 
+			estado_atual <= estado5;
+			
+		estado3: 
+			estado_atual <= estado7;
+			
+		estadoA: 
+			estado_atual <= estado3;
+			
+		estadoE: 
+			estado_atual <= estadoA;
+			
+		estado8: 
+			estado_atual <= estadoE;
+			
+		estado0: 
+			estado_atual <= estado8;
+			
+		estadoB: 
+			estado_atual <= estado0;
+			
+		estado4: 
+			estado_atual <= estadoB;
+			
+		estado6: 
+			estado_atual <= estado4;
+			
+		estadoD: 
+			estado_atual <= estado6;
+			
+		estadoF: 
+			estado_atual <= estadoD;
+			
+		estado1: 
+			estado_atual <= estadoF;
+			
+		estadoC: 
+			estado_atual <= estado1;
+			
+		estado9: 
+			estado_atual <= estadoC;
+			
+		endcase
+		end
+		end
+	
+	end
+								
+endmodule

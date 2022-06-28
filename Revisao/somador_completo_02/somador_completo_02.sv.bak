@@ -1,0 +1,4 @@
+module somador_completo_02 (input A, B, Cin, output S, Cout);
+
+always @(A or B or Cin) begin 
+	case 

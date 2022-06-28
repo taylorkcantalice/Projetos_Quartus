@@ -1,0 +1,22 @@
+|questao_01
+nen => row_sel.OUTPUTSELECT
+nen => row_sel.OUTPUTSELECT
+nen => row_sel.OUTPUTSELECT
+nen => row_sel.OUTPUTSELECT
+nen => row_sel.OUTPUTSELECT
+nen => row_sel.OUTPUTSELECT
+nen => row_sel.OUTPUTSELECT
+nen => row_sel.OUTPUTSELECT
+addr[0] => Decoder0.IN2
+addr[1] => Decoder0.IN1
+addr[2] => Decoder0.IN0
+row_sel[0] <= row_sel.DB_MAX_OUTPUT_PORT_TYPE
+row_sel[1] <= row_sel.DB_MAX_OUTPUT_PORT_TYPE
+row_sel[2] <= row_sel.DB_MAX_OUTPUT_PORT_TYPE
+row_sel[3] <= row_sel.DB_MAX_OUTPUT_PORT_TYPE
+row_sel[4] <= row_sel.DB_MAX_OUTPUT_PORT_TYPE
+row_sel[5] <= row_sel.DB_MAX_OUTPUT_PORT_TYPE
+row_sel[6] <= row_sel.DB_MAX_OUTPUT_PORT_TYPE
+row_sel[7] <= row_sel.DB_MAX_OUTPUT_PORT_TYPE
+
+

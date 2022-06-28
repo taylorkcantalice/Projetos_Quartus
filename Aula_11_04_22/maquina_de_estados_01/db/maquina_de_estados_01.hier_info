@@ -1,0 +1,12 @@
+|maquina_de_estados_01
+Clock => Z~reg0.CLK
+Clock => D2~reg0.CLK
+Clock => D1~reg0.CLK
+In => D1.IN1
+In => D1.IN1
+In => Z.IN1
+D1 <= D1~reg0.DB_MAX_OUTPUT_PORT_TYPE
+D2 <= D2~reg0.DB_MAX_OUTPUT_PORT_TYPE
+Z <= Z~reg0.DB_MAX_OUTPUT_PORT_TYPE
+
+

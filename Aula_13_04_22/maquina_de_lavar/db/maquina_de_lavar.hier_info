@@ -1,0 +1,20 @@
+|maquina_de_lavar
+clock => estado_atual[0]~reg0.CLK
+clock => estado_atual[1]~reg0.CLK
+reset_n => estado_atual[0]~reg0.ACLR
+reset_n => estado_atual[1]~reg0.ACLR
+inicio => estado_atual.OUTPUTSELECT
+inicio => estado_atual.OUTPUTSELECT
+cheio => estado_atual.OUTPUTSELECT
+cheio => estado_atual.OUTPUTSELECT
+tempo => estado_atual.OUTPUTSELECT
+tempo => estado_atual.OUTPUTSELECT
+secar => estado_atual.OUTPUTSELECT
+secar => estado_atual.OUTPUTSELECT
+valvula_agua <= Decoder0.DB_MAX_OUTPUT_PORT_TYPE
+modo_agitar <= Decoder0.DB_MAX_OUTPUT_PORT_TYPE
+modo_girar <= Decoder0.DB_MAX_OUTPUT_PORT_TYPE
+estado_atual[0] <= estado_atual[0]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+estado_atual[1] <= estado_atual[1]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+
+
